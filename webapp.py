@@ -1490,8 +1490,7 @@ def main():
     print("  Deploy on Railway / Fly.io / Render:")
     print("    Set PORT env to your port (default 5000)")
     print("=" * 55)
-       print(" Press Ctrl+C to stop the server")
-
+      
         
     app.run(host=host, port=port, debug=False, threaded=True)
 
